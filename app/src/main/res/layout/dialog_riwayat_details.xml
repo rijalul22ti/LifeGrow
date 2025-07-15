@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textJenisKelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Umur: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textBeratLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Lahir: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textPanjangLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panjang Lahir: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textBeratSekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Sekarang: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textTinggiSekarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Sekarang: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textStunting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stunting: "
+        android:textSize="16sp"/>
+</LinearLayout>
